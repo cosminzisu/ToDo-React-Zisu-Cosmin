@@ -1,0 +1,16 @@
+.motivationbox {
+    text-align: center;
+    padding-top: 5%;
+  }
+  .motivation {
+    border-style: none;
+    background-color: rgb(253, 161, 161);
+    padding: 12px;
+    border-left: 10px solid red;
+    border-right: 10px solid red;
+    border-radius: 5px;
+  }
+  .tmotiv {
+    font-family: verdana;
+    font-size: 200%;
+  }

@@ -1,0 +1,49 @@
+.titletobe {
+    padding: 1rem;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 100;
+    background: #790101;
+    color: white;
+  }
+  article {
+    max-width: 70rem;
+    margin: 0 auto;
+    border: 0.18rem solid lightgrey;
+    padding: clamp(1rem, 2vw, 3rem);
+    border-radius: 0.5rem;
+  }
+  
+  article > * + * {
+    margin-top: 1rem;
+  }
+  
+  dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.5rem 0;
+  }
+  
+  dl > * {
+    background: rgb(248, 60, 60);
+    padding: 1rem;
+    color:white;
+  }
+  
+  dl > :nth-of-type(2n) {
+    background: rgb(185, 35, 35);
+    color:white;
+  }
+  
+  dt {
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+  
+  dd {
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
